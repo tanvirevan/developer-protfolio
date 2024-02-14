@@ -7,7 +7,10 @@ body
    {
       color: #FD6E0A;
    }
-
+.header
+   {
+      background-color: #FFF8F3;
+   }
 /* Navbar Style */
 
 
@@ -16,6 +19,7 @@ nav
       display: flex;
       align-items: center;
       justify-content: space-between;
+      padding: 0px 200px;
    }
 nav>ul
    {
@@ -38,10 +42,20 @@ li a
       text-decoration: none;
       color: #474747;
    }
-.Hire-btn
+.btn-primary
    {
       border-radius: 5px;
       padding:5px;
       border: none;
       background-color: #FD6E0A;
+   }
+.banner
+   {
+      padding: 30px 30px 30px 150px;
+      display: flex;
+      align-items: center;
+   }
+.banner .profile-pic
+   {
+      width: 500px;
    }
